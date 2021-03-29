@@ -1,0 +1,11 @@
+mkdir build 
+cd build
+mkdir assets
+cp -a ../assets/. assets/
+cmake .. 
+cd ..
+cmake --build build 
+cd build 
+./computerAnimationProject
+
+
